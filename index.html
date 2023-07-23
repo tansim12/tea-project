@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea-projet</title>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind and daisy UI  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    `
+<!-- costumaize  -->
+<script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+</script>
+
+    <!-- google fonts-manrope  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Manrope:wght@400;500;600;700;800&family=Roboto:ital,wght@1,900&display=swap"
+    rel="stylesheet"
+    />
+
+    <style>
+.font-manrope {
+        font-family: "Manrope", sans-serif;
+}
+    </style>
+</head>
+<body class="font-manrope">
+    <!-- header section  -->
+    <header>
+        <!-- banner section  -->
+        <section class="container mx-auto  md:px-16 lg:px-24 py-5 my-10 ">
+            <div class="hero ">
+                <div class="hero-content p-0 flex-col text-center gap-10 lg:flex-row">
+                  <div>
+                    <h1 class="text-2xl md:text-3xl lg:text-5xl font-extrabold">It's good <br>
+                        tea time at The <br> Tea House</h1>
+                    <p class="py-6 text-xs sm:text-sm md:text-base">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn font-bold">
+                        Explore More
+                        <span><i class="fa-solid fa-arrow-right-to-bracket"></i></span>
+                    </button>
+                  </div>
+                  <div>
+                    <img src="./images/banner.png" class="max-w-xs md:max-w-md " />
+                    <div class="flex items-center gap-3 drop-shadow-lg w-60 bg-white p-4  -mt-16 rounded-lg">
+                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                        <div>
+                            <p class="text-3xl">5.00</p>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+        <!-- Our Featured Products -->
+        <section  class="container mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 ">
+            <h1 class="text-2xl md:text-3xl lg:text-5xl text-center mb-4">
+                Our Featured Products
+            </h1>
+            <p class="text-xs  md:text-base font-medium text-center w-[80%] mx-auto" >
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            </p>
+
+            <!-- grid section  -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-10">
+                <div class="  rounded-lg shadow-lg p-7 ">
+                    <div class="flex justify-center">
+                        <img class="" src="./images/tea-1.png" alt="avatar">
+                    </div>
+                
+                    <div class="py-5 text-center">
+                        <h2 class="text-xl font-extrabold">
+                            Milk Tea
+                        </h2>
+                        <span class="text-sm text-center">Creamer could be replaced by fresh milk</span>
+                    </div>
+                </div>
+                <div class="  rounded-lg shadow-lg p-7 ">
+                    <div class="flex justify-center">
+                        <img  src="./images/tea-2.png" alt="avatar">
+                    </div>
+                
+                    <div class="py-5 text-center">
+                        <h2 class="text-xl font-extrabold">
+                            Milk Tea
+                        </h2>
+                        <span class="text-sm text-center">Creamer could be replaced by fresh milk</span>
+                    </div>
+                </div>
+                <div class="  rounded-lg shadow-lg p-7 ">
+                    <div class="flex justify-center">
+                        <img  src="./images/tea-3.png" alt="avatar">
+                    </div>
+                
+                    <div class="py-5 text-center">
+                        <h2 class="text-xl font-extrabold">
+                            Milk Tea
+                        </h2>
+                        <span class="text-sm text-center">Creamer could be replaced by fresh milk</span>
+                    </div>
+                </div>
+                <div class="  rounded-lg shadow-lg p-7 ">
+                    <div class="flex justify-center">
+                        <img  src="./images/tea-4.png" alt="avatar">
+                    </div>
+                
+                    <div class="py-5 text-center">
+                        <h2 class="text-xl font-extrabold">
+                            Milk Tea
+                        </h2>
+                        <span class="text-sm text-center">Creamer could be replaced by fresh milk</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+</body>
+</html>
